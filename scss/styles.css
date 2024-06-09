@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: "Montserrat", sans-serif;
+  scroll-behavior: smooth;
+}
+
+.container {
+  max-width: 1300px;
+  overflow: auto;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+}
+
+ul {
+  list-style: none;
+}
+
+.btn {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button-1 {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 10px 20px;
+  cursor: pointer;
+  background: greenyellow;
+  color: #fff;
+}
+
+.button-2 {
+  background: orangered;
+  color: #fff;
+}
+
+.buton-3 {
+  background: #fff;
+  color: greenyellow;
+  text-align: center;
+  padding: 10px 50px;
+  cursor: pointer;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+form .form-group {
+  margin-bottom: 1rem;
+  display: inline-block;
+}
+form .form-control {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 3px;
+  margin-bottom: 1rem;
+}
+form button {
+  width: 100%;
+  background: #000;
+  color: #fff;
+}
+
+img {
+  max-width: 100%;
+}
+
+#mainheader {
+  width: 80%;
+  margin: 0 auto;
+}
+#mainheader .navbar .logo {
+  width: 200px;
+  margin-top: 2rem;
+}
+#mainheader .navbar ul {
+  font-size: 0.8rem;
+  margin-top: 3rem;
+  float: right;
+}
+#mainheader .navbar ul li {
+  display: inline-block;
+  margin-left: 1rem;
+}
+
+#social {
+  background: rgb(246, 186, 74);
+}
+#social .social-row {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  gap: 50px;
+  padding: 3rem 0;
+}
+#social .social-row h3 {
+  color: #fff;
+  margin: 2rem 0;
+  font-size: 1rem;
+  font-weight: 300;
+}
+#social .social-row li, #social .social-row a {
+  color: #fff;
+  font-size: 0.6rem;
+}
+#social .social-row .social-row-1 {
+  width: 40%;
+}
+#social .social-row .social-row-1 img {
+  width: 150px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+#social .social-row .social-row-1 p {
+  font-size: 0.85rem;
+  color: #fff;
+  line-height: 30px;
+}
+#social .social-row .social-row-2 li {
+  margin-bottom: 1rem;
+}
+#social .social-row .social-row-3 li {
+  margin-bottom: 1rem;
+}
+#social .social-row .social-row-3 img {
+  width: 15px;
+}
+#social .social-row .social-row-4 img {
+  width: 25px;
+}
+
+#footer {
+  text-align: center;
+  padding: 3rem 0;
+  background: orange;
+}/*# sourceMappingURL=styles.css.map */
