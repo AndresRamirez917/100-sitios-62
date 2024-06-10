@@ -81,6 +81,10 @@ img {
   max-width: 100%;
 }
 
+span {
+  color: orangered;
+}
+
 #mainheader {
   width: 80%;
   margin: 0 auto;
@@ -97,6 +101,54 @@ img {
 #mainheader .navbar ul li {
   display: inline-block;
   margin-left: 1rem;
+}
+
+#showcase {
+  background: url("/image/showcase.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+#showcase .showcase-container {
+  width: 80%;
+  margin: 0 auto;
+  display: block;
+  padding-top: 11rem;
+}
+#showcase .showcase-container h1 {
+  font-size: 3rem;
+  font-weight: 400;
+  color: #717171;
+}
+#showcase .showcase-container p {
+  width: 60%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  color: #fff;
+}
+
+#bio {
+  width: 80%;
+  margin: 0 auto;
+}
+#bio .bio-row {
+  margin: 4rem 0;
+  display: flex;
+  gap: 50px;
+}
+#bio .bio-row img {
+  width: 40%;
+}
+#bio .bio-row .bio-text {
+  text-align: center;
+  line-height: 30px;
+}
+#bio .bio-row .bio-text h3 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  font-weight: 400;
 }
 
 #social {

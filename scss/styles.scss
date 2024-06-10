@@ -87,6 +87,10 @@ img {
     max-width: 100%;
 }
 
+span {
+    color: orangered;
+}
+
 //mainheader
 #mainheader {
     width: 80%;
@@ -104,6 +108,56 @@ img {
                 display: inline-block;
                 margin-left: 1rem;
             }
+        }
+    }
+}
+
+//showcase
+#showcase {
+    background: url("/image/showcase.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    .showcase-container {
+        width: 80%;
+        margin: 0 auto;
+        display: block;
+        padding-top: 11rem;
+        h1 {
+            font-size: 3rem;
+            font-weight: 400;
+            color: #717171;
+        }
+        p {
+            width: 60%;
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+           font-size: 2rem;
+           color: #fff;
+        }
+    }
+}
+
+//bio
+#bio {
+    width: 80%;
+    margin: 0 auto;
+    .bio-row {
+        margin: 4rem 0;
+        display: flex;
+        gap: 50px;
+        img {
+            width: 40%;
+        }
+        .bio-text {
+            h3 {
+                font-size: 2rem;
+                margin-bottom: 2rem;
+                font-weight: 400;
+            }
+            text-align: center;
+            line-height: 30px;
         }
     }
 }
