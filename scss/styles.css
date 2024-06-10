@@ -13,7 +13,7 @@ html, body {
 .container {
   max-width: 1300px;
   overflow: auto;
-  padding: 0 30px;
+  padding: 30px 0;
   margin: 0 auto;
 }
 
@@ -23,11 +23,8 @@ a {
   color: #000;
 }
 
-ul {
-  list-style: none;
-}
-
 .btn {
+  display: inline-block;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -51,14 +48,15 @@ ul {
   color: #fff;
 }
 
-.buton-3 {
+.button-3 {
   background: #fff;
-  color: greenyellow;
+  color: rgb(33, 54, 0);
   text-align: center;
   padding: 10px 50px;
   cursor: pointer;
   text-align: center;
   text-transform: uppercase;
+  font-weight: bold;
 }
 
 form .form-group {
@@ -91,11 +89,12 @@ span {
 }
 #mainheader .navbar .logo {
   width: 200px;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 #mainheader .navbar ul {
+  list-style: none;
   font-size: 0.8rem;
-  margin-top: 3rem;
+  margin-top: 2rem;
   float: right;
 }
 #mainheader .navbar ul li {
@@ -151,6 +150,61 @@ span {
   font-weight: 400;
 }
 
+#first-date {
+  text-align: center;
+}
+#first-date h2 {
+  font-size: 2rem;
+  font-weight: 400;
+  text-align: center;
+  margin: 2rem 0;
+  text-transform: uppercase;
+}
+#first-date .first-date-row {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  margin-bottom: 2rem;
+  text-align: center;
+  gap: 50px;
+}
+#first-date .first-date-row .box img {
+  width: 50px;
+  margin-bottom: 1rem;
+}
+#first-date .first-date-row .box h3 {
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+#first-date .first-date-row .box p {
+  font-size: small;
+}
+
+#disclaimer .disclaimer-block {
+  width: 40%;
+  margin: 0 auto;
+  margin-top: 3rem;
+  text-align: center;
+}
+#disclaimer .disclaimer-block p {
+  margin-top: 10rem;
+  font-family: "Courier New", Courier, monospace;
+}
+#disclaimer .disclaimer-block h5 {
+  margin-bottom: 3rem;
+}
+
+#doubts {
+  background: rgb(108, 160, 30);
+  padding: 2rem 0;
+}
+#doubts .doubts-row {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  gap: 300px;
+}
+
 #social {
   background: rgb(246, 186, 74);
 }
@@ -201,4 +255,116 @@ span {
   text-align: center;
   padding: 3rem 0;
   background: orange;
+}
+
+#banner {
+  background: rgb(192, 113, 84);
+  color: #fff;
+  font-size: 2.5rem;
+}
+#banner h1 {
+  font-weight: 300;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+#lorem {
+  width: 80%;
+  margin: 0 auto;
+}
+#lorem p {
+  margin: 3rem 0;
+  font-size: 1.2rem;
+  line-height: 30px;
+}
+
+#dates {
+  width: 80%;
+  margin: 0 auto;
+}
+#dates .dates-row {
+  display: flex;
+  gap: 50px;
+}
+#dates .dates-row .dates-box {
+  text-align: center;
+}
+#dates .dates-row .dates-box h3 {
+  margin: 1rem 0;
+}
+#dates .dates-row .dates-box h5 {
+  margin-bottom: 1rem;
+}
+
+#testimonials {
+  width: 80%;
+  margin: 0 auto;
+}
+#testimonials h2 {
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 5rem;
+}
+#testimonials .testimonials-row {
+  display: flex;
+  text-align: center;
+  margin-bottom: 3rem;
+  gap: 50px;
+}
+#testimonials .testimonials-row p {
+  font-family: "Times New Roman", Times, serif;
+}
+
+#services {
+  width: 30%;
+  margin: 0 auto;
+}
+#services .services-block {
+  display: block;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#services .services-block img {
+  padding: 50px 0;
+  width: 150px;
+  border-radius: 50%;
+}
+#services .services-block h1 {
+  background: rgb(158, 200, 95);
+  padding: 50px 0;
+  font-size: 3rem;
+}
+#services .services-block h1 span {
+  color: #fff;
+  font-size: small;
+}
+#services .services-block li {
+  margin-bottom: 1rem;
+}
+#services .services-block a {
+  margin: 1rem 0;
+}
+
+#questions {
+  width: 70%;
+  margin: 0 auto;
+}
+#questions .question-row {
+  margin-top: 4rem;
+  display: block;
+}
+#questions .question-row .question-row-1 {
+  margin-bottom: 2rem;
+  display: flex;
+  gap: 50px;
+}
+#questions .question-row .question-row-1 img {
+  width: 40px;
+  height: 50px;
+}
+#questions .question-row .question-row-1 .question-text h1 {
+  margin-bottom: 1rem;
+}
+#questions .question-row .question-row-1 ul li {
+  line-height: 30px;
 }/*# sourceMappingURL=styles.css.map */

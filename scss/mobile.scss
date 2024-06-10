@@ -37,3 +37,57 @@
         }
     }
 }
+
+//bio
+#bio {
+    text-align: center;
+    .bio-row {
+        display: block;
+        img {
+            width: 100%;
+        }
+    }
+}
+
+//first
+#first-date {
+    .first-date-row {
+        display: block;
+    }
+}
+
+//disclaimer
+#disclaimer {
+    .disclaimer-block {
+        display: block;
+    }
+}
+
+//doubts
+#doubts {
+    text-align: center;
+    .doubts-row {
+        display: block;
+        h1 {
+            margin-bottom: 2rem;
+        }
+    }
+}
+
+//social
+#social {
+    ul {
+        list-style: none;
+    }
+    margin: 0 auto;
+    text-align: center;
+    .social-row {
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .social-row-1 {
+        text-align: center;
+        margin: 0 auto;
+    }
+}

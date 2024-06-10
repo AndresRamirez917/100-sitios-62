@@ -26,4 +26,49 @@
 #showcase .showcase-container p {
   width: 100%;
   text-align: center;
+}
+
+#bio {
+  text-align: center;
+}
+#bio .bio-row {
+  display: block;
+}
+#bio .bio-row img {
+  width: 100%;
+}
+
+#first-date .first-date-row {
+  display: block;
+}
+
+#disclaimer .disclaimer-block {
+  display: block;
+}
+
+#doubts {
+  text-align: center;
+}
+#doubts .doubts-row {
+  display: block;
+}
+#doubts .doubts-row h1 {
+  margin-bottom: 2rem;
+}
+
+#social {
+  margin: 0 auto;
+  text-align: center;
+}
+#social ul {
+  list-style: none;
+}
+#social .social-row {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+}
+#social .social-row-1 {
+  text-align: center;
+  margin: 0 auto;
 }/*# sourceMappingURL=mobile.css.map */
