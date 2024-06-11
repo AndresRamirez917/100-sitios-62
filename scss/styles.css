@@ -59,22 +59,6 @@ a {
   font-weight: bold;
 }
 
-form .form-group {
-  margin-bottom: 1rem;
-  display: inline-block;
-}
-form .form-control {
-  width: 100%;
-  padding: 1rem;
-  border-radius: 3px;
-  margin-bottom: 1rem;
-}
-form button {
-  width: 100%;
-  background: #000;
-  color: #fff;
-}
-
 img {
   max-width: 100%;
 }
@@ -407,4 +391,39 @@ span {
 #about .about-row .about-row-2 img {
   width: 500px;
   height: 600px;
+}
+
+#contact h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+#contact form {
+  width: 60%;
+  margin: 0 auto;
+}
+#contact form .flex {
+  display: flex;
+  gap: 20px;
+}
+#contact form .flex-box-1 {
+  flex: 1;
+}
+
+form .form-group {
+  margin-bottom: 1rem;
+}
+form .form-control {
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  color: #000;
+}
+form button {
+  width: 100%;
+  padding: 10px 20px;
+  text-align: center;
+  background: #5a0c0c;
+  color: #fff;
+  border: none;
+  cursor: pointer;
 }/*# sourceMappingURL=styles.css.map */
