@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link rel="stylesheet" href="/scss/styles.css">
     <link rel="stylesheet" media="screen and (max-width:1000px)" href="/scss/mobile.css">
     <title>Nutrition Today | Welcome</title>
@@ -11,15 +12,18 @@
     <!-- mainheader -->
     <header id="mainheader">
         <nav class="navbar">
-            <div class="container">
+            <div class="container topnav">
                 <a href="index.html"><img src="/image/logo.png" alt="" class="logo"></a>
-                <ul>
+                <ul id="myLinks" style="display: block">
                     <li><a href="index.html">inicio</a></li>
                     <li><a href="consultas.html">consultas</a></li>
                     <li><a href="preguntas.html">preguntas frecuentes</a></li>
                     <li><a href="acerca.html">acerca de laura</a></li>
                     <li><a href="citas.html" class="button-1">agenda tu cita</a></li>
                 </ul>
+                <a href="javascript:void(0);" class="icon" onclick="myMenu()">
+                    <i class="fa fa-bars"></i>
+                </a>
             </div>
         </nav>
     </header>
@@ -154,5 +158,6 @@
     <footer id="footer">
         <a href="https://twitter.com/AndresRamirez?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @AndresRamirez</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </footer>
+    <script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>

@@ -91,6 +91,9 @@ span {
   width: 200px;
   margin-top: 1rem;
 }
+#mainheader .navbar .topnav {
+  position: relative;
+}
 #mainheader .navbar ul {
   list-style: none;
   font-size: 0.8rem;
@@ -288,6 +291,7 @@ span {
 }
 #dates .dates-row .dates-box {
   text-align: center;
+  margin-bottom: 2rem;
 }
 #dates .dates-row .dates-box h3 {
   margin: 1rem 0;
@@ -367,4 +371,40 @@ span {
 }
 #questions .question-row .question-row-1 ul li {
   line-height: 30px;
+}
+
+#about {
+  width: 80%;
+  margin: 0 auto;
+}
+#about .about-row .about-row-1 {
+  display: flex;
+  gap: 50px;
+  margin-bottom: 6rem;
+}
+#about .about-row .about-row-1 h1 {
+  font-size: 2rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+#about .about-row .about-row-1 img {
+  width: 500px;
+}
+#about .about-row .about-row-2 {
+  display: flex;
+}
+#about .about-row .about-row-2 h1 {
+  font-size: 2rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+#about .about-row .about-row-2 ul {
+  line-height: 30px;
+}
+#about .about-row .about-row-2 h4 {
+  margin: 1rem 0;
+}
+#about .about-row .about-row-2 img {
+  width: 500px;
+  height: 600px;
 }/*# sourceMappingURL=styles.css.map */

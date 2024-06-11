@@ -98,6 +98,9 @@ span {
             width: 200px;
             margin-top: 1rem;
         }
+        .topnav {
+            position: relative;
+        }
         ul {
             list-style: none;
             font-size: .8rem;
@@ -320,6 +323,7 @@ span {
         gap: 50px;
         .dates-box {
             text-align: center;
+            margin-bottom: 2rem;
             h3 {
                 margin: 1rem 0;
             }
@@ -409,6 +413,45 @@ span {
                 li {
                     line-height: 30px;
                 }
+            }
+        }
+    }
+}
+
+//página acerca
+#about {
+    width: 80%;
+    margin: 0 auto;
+    .about-row {
+        .about-row-1 {
+            display: flex;
+            gap: 50px;
+            margin-bottom: 6rem;
+            h1 {
+                font-size: 2rem;
+                font-weight: 400;
+                margin-bottom: 1rem;
+            }
+            img {
+                width: 500px;
+            }
+        }
+        .about-row-2 {
+            display: flex;
+            h1 {
+                font-size: 2rem;
+                font-weight: 400;
+                margin-bottom: 1rem;
+            }
+            ul {
+                line-height: 30px;
+            }
+            h4 {
+                margin: 1rem 0;
+            }
+            img {
+                width: 500px;
+                height: 600px;
             }
         }
     }

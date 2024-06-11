@@ -6,13 +6,14 @@
   margin-top: 1rem;
 }
 #mainheader .navbar ul {
-  float: right;
+  float: none;
   text-align: center;
   margin-top: 0;
 }
 #mainheader .navbar ul li {
-  display: inline-block;
+  display: block;
   margin: 1rem 0;
+  text-align: center;
 }
 
 #showcase .showcase-container {
@@ -71,4 +72,41 @@
 #social .social-row-1 {
   text-align: center;
   margin: 0 auto;
+}
+
+#lorem {
+  text-align: center;
+}
+
+#dates .dates-row {
+  display: block;
+}
+#dates .dates-row .dates.box .box-1 {
+  color: red;
+  margin: 100px;
+}
+
+#testimonials .testimonials-row {
+  display: block;
+}
+#testimonials .testimonials-row .test-box-1 {
+  margin-bottom: 2rem;
+}
+
+#services {
+  width: 80%;
+}
+#about {
+  margin: 0 auto;
+  text-align: center;
+}
+#about .about-row .about-row-1 {
+  display: block;
+}
+#about .about-row .about-row-2 {
+  display: block;
+}
+#about .about-row .about-row-2 img {
+  width: 70%;
+  height: 80%;
 }/*# sourceMappingURL=mobile.css.map */
