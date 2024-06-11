@@ -17,6 +17,10 @@ html, body {
   margin: 0 auto;
 }
 
+ul {
+  list-style: none;
+}
+
 a {
   text-decoration: none;
   text-transform: uppercase;
@@ -67,10 +71,15 @@ span {
   color: orangered;
 }
 
-#mainheader {
+.flex {
+  display: flex;
+}
+
+.main-width {
   width: 80%;
   margin: 0 auto;
 }
+
 #mainheader .navbar .logo {
   width: 200px;
   margin-top: 1rem;
@@ -79,7 +88,6 @@ span {
   position: relative;
 }
 #mainheader .navbar ul {
-  list-style: none;
   font-size: 0.8rem;
   margin-top: 2rem;
   float: right;
@@ -97,8 +105,6 @@ span {
   height: 100vh;
 }
 #showcase .showcase-container {
-  width: 80%;
-  margin: 0 auto;
   display: block;
   padding-top: 11rem;
 }
@@ -115,13 +121,8 @@ span {
   color: #fff;
 }
 
-#bio {
-  width: 80%;
-  margin: 0 auto;
-}
 #bio .bio-row {
   margin: 4rem 0;
-  display: flex;
   gap: 50px;
 }
 #bio .bio-row img {
@@ -148,9 +149,6 @@ span {
   text-transform: uppercase;
 }
 #first-date .first-date-row {
-  width: 80%;
-  margin: 0 auto;
-  display: flex;
   margin-bottom: 2rem;
   text-align: center;
   gap: 50px;
@@ -186,9 +184,6 @@ span {
   padding: 2rem 0;
 }
 #doubts .doubts-row {
-  display: flex;
-  width: 80%;
-  margin: 0 auto;
   gap: 300px;
 }
 
@@ -196,9 +191,6 @@ span {
   background: rgb(246, 186, 74);
 }
 #social .social-row {
-  width: 80%;
-  margin: 0 auto;
-  display: flex;
   gap: 50px;
   padding: 3rem 0;
 }
@@ -255,22 +247,13 @@ span {
   text-transform: capitalize;
 }
 
-#lorem {
-  width: 80%;
-  margin: 0 auto;
-}
 #lorem p {
   margin: 3rem 0;
   font-size: 1.2rem;
   line-height: 30px;
 }
 
-#dates {
-  width: 80%;
-  margin: 0 auto;
-}
 #dates .dates-row {
-  display: flex;
   gap: 50px;
 }
 #dates .dates-row .dates-box {
@@ -284,17 +267,12 @@ span {
   margin-bottom: 1rem;
 }
 
-#testimonials {
-  width: 80%;
-  margin: 0 auto;
-}
 #testimonials h2 {
   text-align: center;
   text-transform: uppercase;
   margin-bottom: 5rem;
 }
 #testimonials .testimonials-row {
-  display: flex;
   text-align: center;
   margin-bottom: 3rem;
   gap: 50px;
@@ -343,7 +321,6 @@ span {
 }
 #questions .question-row .question-row-1 {
   margin-bottom: 2rem;
-  display: flex;
   gap: 50px;
 }
 #questions .question-row .question-row-1 img {
@@ -357,12 +334,7 @@ span {
   line-height: 30px;
 }
 
-#about {
-  width: 80%;
-  margin: 0 auto;
-}
 #about .about-row .about-row-1 {
-  display: flex;
   gap: 50px;
   margin-bottom: 6rem;
 }
@@ -373,9 +345,6 @@ span {
 }
 #about .about-row .about-row-1 img {
   width: 500px;
-}
-#about .about-row .about-row-2 {
-  display: flex;
 }
 #about .about-row .about-row-2 h1 {
   font-size: 2rem;

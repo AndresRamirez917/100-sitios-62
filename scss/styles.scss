@@ -20,6 +20,10 @@ html, body {
     margin: 0 auto;
 }
 
+ul {
+    list-style: none;
+}
+
 a {
     text-decoration: none;
     text-transform: uppercase;
@@ -62,8 +66,6 @@ a {
     font-weight: bold;
 }
 
-
-
 img {
     max-width: 100%;
 }
@@ -72,10 +74,17 @@ span {
     color: orangered;
 }
 
-//mainheader
-#mainheader {
+.flex {
+    display: flex;
+}
+
+.main-width {
     width: 80%;
     margin: 0 auto;
+}
+
+//mainheader
+#mainheader {
     .navbar {
         .logo {
             width: 200px;
@@ -85,7 +94,6 @@ span {
             position: relative;
         }
         ul {
-            list-style: none;
             font-size: .8rem;
             margin-top: 2rem;
             float: right;
@@ -105,8 +113,6 @@ span {
     background-size: cover;
     height: 100vh;
     .showcase-container {
-        width: 80%;
-        margin: 0 auto;
         display: block;
         padding-top: 11rem;
         h1 {
@@ -126,11 +132,8 @@ span {
 
 //bio
 #bio {
-    width: 80%;
-    margin: 0 auto;
     .bio-row {
         margin: 4rem 0;
-        display: flex;
         gap: 50px;
         img {
             width: 40%;
@@ -159,9 +162,6 @@ span {
     }
 
     .first-date-row {
-        width: 80%;
-        margin: 0 auto;
-        display: flex;
         margin-bottom: 2rem;
        text-align: center;
        gap: 50px;
@@ -177,8 +177,7 @@ span {
             p {
                 font-size: small;
             }
-        }
-       
+        }     
     }
 }
 
@@ -196,8 +195,7 @@ span {
         h5 {
             margin-bottom: 3rem;
         }
-    }
-   
+    } 
 }
 
 //doubts
@@ -205,9 +203,6 @@ span {
     background: rgb(108, 160, 30);
     padding: 2rem 0;
     .doubts-row {
-        display: flex;
-        width: 80%;
-        margin: 0 auto;
         gap: 300px;
     }
 }
@@ -216,9 +211,6 @@ span {
 #social {
     background: rgb(246, 186, 74);
     .social-row {
-   width: 80%;
-        margin: 0 auto;
-        display: flex;
         gap: 50px;
         padding: 3rem 0;
         h3 {
@@ -288,8 +280,6 @@ span {
 
 //lorem
 #lorem {
-    width: 80%;
-    margin: 0 auto;
     p {
         margin: 3rem 0;
         font-size: 1.2rem;
@@ -299,10 +289,7 @@ span {
 
 //dates
 #dates {
-    width: 80%;
-    margin: 0 auto;
     .dates-row {
-        display: flex;
         gap: 50px;
         .dates-box {
             text-align: center;
@@ -312,23 +299,19 @@ span {
             }
             h5 {
                 margin-bottom: 1rem;  
-            }
-            
+            }          
         }
     }
 }
 
 //testimonials
 #testimonials {
-    width: 80%;
-    margin: 0 auto;
     h2 {
         text-align: center;
         text-transform: uppercase;
         margin-bottom: 5rem;
     }
     .testimonials-row {
-        display: flex;
         text-align: center;
         margin-bottom: 3rem;
         gap: 50px;
@@ -342,13 +325,10 @@ span {
 #services {
     width: 30%;
     margin: 0 auto;
-    
     .services-block {
-        display: block;
-  
+        display: block; 
         text-align: center;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
         img {
             padding: 50px 0;
             width: 150px;
@@ -385,7 +365,6 @@ span {
                 width: 40px;
                 height: 50px;
             }
-            display: flex;
             gap: 50px;
             .question-text {
               h1 {
@@ -403,11 +382,8 @@ span {
 
 //página acerca
 #about {
-    width: 80%;
-    margin: 0 auto;
     .about-row {
         .about-row-1 {
-            display: flex;
             gap: 50px;
             margin-bottom: 6rem;
             h1 {
@@ -420,7 +396,6 @@ span {
             }
         }
         .about-row-2 {
-            display: flex;
             h1 {
                 font-size: 2rem;
                 font-weight: 400;
@@ -440,8 +415,6 @@ span {
     }
 }
 
-
-
 //página contact
 #contact {
     h2 {
@@ -458,9 +431,7 @@ span {
     .flex-box-1 {
         flex: 1;
     }
-   }
-   
-  
+   } 
 }
 
 form { 
@@ -472,7 +443,6 @@ form {
         width: 100%;
         padding: 1rem;
         color: #000;
-
     }
     button {
         width: 100%;
