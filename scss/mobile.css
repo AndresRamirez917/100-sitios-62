@@ -99,7 +99,7 @@
 
 #about {
   margin: 0 auto;
-  text-align: center;
+  text-align: left;
 }
 #about .about-row .about-row-1 {
   display: block;

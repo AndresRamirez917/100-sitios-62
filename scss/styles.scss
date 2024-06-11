@@ -35,17 +35,14 @@ a {
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 2px;
-    padding: 10px 20px;
+    // padding: 10px 20px;
+    border: none;
     border-radius: 4px;
     cursor: pointer;
 }
 
 .button-1 {
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: 2px;
     padding: 10px 20px;
-    cursor: pointer;
     background: greenyellow;
     color: #fff;
 } 
@@ -53,16 +50,13 @@ a {
 .button-2 {
     background: orangered;
     color: #fff;
+    padding: 10px 20px;
 }
 
 .button-3 {
     background: #fff;
     color: rgb(33, 54, 0);
-    text-align: center;
-    padding: 10px 50px;
-    cursor: pointer;
-    text-align: center;
-    text-transform: uppercase;
+    padding: 10px 50px;  
     font-weight: bold;
 }
 
@@ -90,19 +84,16 @@ span {
             width: 200px;
             margin-top: 1rem;
         }
-        .topnav {
-            position: relative;
-        }
         ul {
             font-size: .8rem;
-            margin-top: 2rem;
+            margin-top: 1.5rem;
             float: right;
             li {
                 display: inline-block;
                 margin-left: 1rem;
             }
         }
-    }
+    }     
 }
 
 //showcase
@@ -238,7 +229,6 @@ span {
        }
        .social-row-2 {
         li {
-          
             margin-bottom: 1rem;
         }
    }
@@ -328,7 +318,15 @@ span {
     .services-block {
         display: block; 
         text-align: center;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+        // box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+        border: 1px solid #aaaaaacd;
+        box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
+        ul {
+            li {
+                margin-top: 1rem;
+                text-align: left;
+            }
+        }
         img {
             padding: 50px 0;
             width: 150px;
@@ -338,9 +336,10 @@ span {
             background: rgb(158, 200, 95);
             padding: 50px 0;
             font-size: 3rem;
+            color: #fff;
             span {
                 color: #fff;
-                font-size: small;
+                font-size: 80px;
             }
         }
         li {
@@ -393,6 +392,9 @@ span {
             }
             img {
                 width: 500px;
+                text-align: center;
+                margin:  0 auto;
+                display: block;
             }
         }
         .about-row-2 {
@@ -410,6 +412,9 @@ span {
             img {
                 width: 500px;
                 height: 600px;
+                text-align: center;
+                margin:  0 auto;
+                display: block;
             }
         }
     }
@@ -447,11 +452,8 @@ form {
     button {
         width: 100%;
         padding: 10px 20px;
-      text-align: center;
       background: #5a0c0c;
       color: #fff;
-      border: none;
-      cursor: pointer;
     }
 }
 
